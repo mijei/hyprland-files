@@ -1,0 +1,41 @@
+[global]
+layer = top
+font = "Ubuntu 8"
+follow = none
+notification_limit = 5
+
+# size, position and appearance
+# The window position was chosen for the gaps settings of the window manager and for a 1080p monitor
+frame_width = 1
+width = 400
+height = 400
+origin = bottom-right
+offset = 40x40
+corner_radius = 4
+
+# icons
+min_icon_size = 24
+
+indicate_hidden = false
+separator_height = 2
+padding = 8
+horizontal_padding = 8
+text_icon_padding = 16
+gap_size = 6
+separator_color = frame
+
+# behavior
+sort = update
+format = "<big><b><span foreground='#000000'>%s</span></b></big>\n%b"
+show_indicators = false
+mouse_left_click = close_current
+title = "Dunst"
+class = "dunst"
+timeout = 8
+
+highlight = "#000000"
+background = "#ffe8b8" 
+foreground = "#000000"
+frame_color = "#000000"
+
+# vim:ft=cfg
